@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dampf Zebra</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css">
+    <link rel="shortcut icon" href="./img/favicon (1).ico" type="image/x-icon">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto&family=Tangerine:wght@700&display=swap&family=Lobster&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+</head>
+
+<body>
+    <!-- preloader -->
+
+    <div class="preloader">
+
+    </div>
+
+
+
+    <!-- hero section -->
+    <section class="hero" id="hero">
+        <div class="logo">
+            <img class="logo" src="./img/logo.svg" alt="">
+        </div>
+
+        <!-- <div id="hero-border-l" class="hero-border hero-border-left"></div>
+        <div id="hero-border-r" class="hero-border hero-border-right"></div> -->
+
+
+
+        <div class="container">
+            <div id="hero-img" class='hero-img'></div>
+            <h1 id="heading" class="main-heading">Dampf Zebra</h1>
+            <h3 id="sub-heading" class="sub-heading">Liquid und so...</h3>
+            <div class="global-headline">
+                <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+            </div>
+        </div>
+
+    </section>
+    <header>
+        <!-- nav section -->
+
+
+        <nav id="nav" class="nav nav-bottom">
+            <ul class="nav-list" id="nav-list">
+                <li class='fromLeft'>
+                    <a class="nav-link" href="#open"> <span class="first-letter">Ö</span>ffnungszeiten</a>
+                </li>
+                <li class='fromLeft'>
+                    <a class="nav-link" href="#about"><span class="first-letter">Ü</span>ber uns</a>
+                </li>
+                <li class='fromLeft'>
+                    <a class="nav-link" href="#location"><span class="first-letter">S</span>tandorte</a>
+                </li>
+                <li class="header-burger">
+                    <div id="burger" class="burger">
+                        <div>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="clouds">
+            <img src="./img/cloud1.png" style='--i:1'>
+            <img src="./img/cloud2.png" style='--i:2'>
+            <img src="./img/cloud3.png" style='--i:3'>
+            <img src="./img/cloud4.png" style='--i:4'>
+            <img src="./img/cloud5.png" style='--i:5'>
+            <img src="./img/cloud1.png" style='--i:10'>
+            <img src="./img/cloud2.png" style='--i:9'>
+            <img src="./img/cloud3.png" style='--i:8'>
+            <img src="./img/cloud4.png" style='--i:7'>
+            <img src="./img/cloud5.png" style='--i:6'>
+        </div>
+
+    </header>
+
+    <main id="main-scroll">
+        <section class="open between" id="open">
+            <div class="container">
+                <div class="global-headline">
+                    <div class="animate-top">
+                        <h2 class="main-heading">
+                            Öffnungszeiten
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="full">
+            <container class="cards">
+                <Container class="open-top">
+                    <Col class="open-top-wrapper">
+                    <Row class="open-section-title">Kirchstraße 19, 52531 Übach-Palenberg</Row>
+                    <br />
+                    <Row class="row-map">
+                        <div class="map" id="map-ubach"></div>
+                    </Row>
+
+                    <Row class="row">
+                        <span class="day">Mo, Di, Do, Fr</span>
+                        <span class="line"></span>
+                        <span class="hours">10:00 - 13:30 / 14:30-18:30</span>
+                    </Row><br />
+                    <Row class="row">
+                        <span class="day">Mittwoch</span>
+                        <span class="line"></span>
+                        <span class="hours-closed">Geschlossen</span>
+                    </Row>
+                    <br />
+                    <Row class="row">
+                        <span class="day">Samstag</span>
+                        <span class="line"></span>
+                        <span class="hours">10:00 - 16:00</span>
+                    </Row>
+                    <br />
+                    <Row class="row">
+                        <span class="day">Sonntag</span>
+                        <span class="line"></span>
+                        <span class="hours-closed">Geschlossen</span>
+                    </Row>
+                    <br />
+                    </Col>
+                    <Col class="open-top-wrapper">
+                    <Row class="open-section-title">Telefon:</Row>
+                    <Row><a class="link" href="tel:+492451 9323944">+49(0)2451 9323944</a></Row>
+                    </Col>
+                </Container>
+                <Container class="open-top">
+                    <Col class="open-top-wrapper">
+                    <Row class="open-section-title">Aachener Str. 121, 52249 Eschweiler</Row>
+                    <br />
+                    <Row class="row-map">
+                        <div class='map' id="map-eschweiler"></div>
+                    </Row>
+                    <Row class="row">
+                        <span class="day">Mo, Mi, Do, Fr</span>
+                        <span class="line"></span>
+                        <span class="hours">10:00 - 13:30 / 14:30-18:30</span>
+                    </Row><br />
+                    <Row class="row">
+                        <span class="day">Dienstag</span>
+                        <span class="line"></span>
+                        <span class="hours-closed">Geschlossen</span>
+                    </Row>
+                    <br />
+                    <Row class="row">
+                        <span class="day">Samstag</span>
+                        <span class="line"></span>
+                        <span class="hours">10:00 - 16:00</span>
+                    </Row>
+                    <br />
+                    <Row class="row">
+                        <span class="day">Sonntag</span>
+                        <span class="line"></span>
+                        <span class="hours-closed">Geschlossen</span>
+                    </Row>
+                    <br />
+                    </Col>
+                    <Col class="open-top-wrapper">
+                    <Row class="open-section-title">Telefon:</Row>
+                    <Row><a class="link" href="tel:+492403 8817888">+49(0)2403 8817888</a></Row>
+                    </Col>
+                </Container>
+                <Container class="open-top">
+                    <Col class="open-top-wrapper">
+                    <Row class="open-section-title">Kleine Rurstraße 16, 52428 Jülich</Row>
+                    <br />
+                    <Row class="row-map">
+                        <div class='map' id="map-julich"></div>
+                    </Row>
+
+                    <Row class="row">
+                        <span class="day">Mo, Di, Do, Fr</span>
+                        <span class="line"></span>
+                        <span class="hours">10:00 - 13:30 / 14:30-18:30</span>
+                    </Row>
+                    <br />
+                    <Row class="row">
+                        <span class="day">Mittwoch</span>
+                        <span class="line"></span>
+                        <span class="hours-closed">Geschlossen</span>
+                    </Row>
+                    <br />
+                    <Row class="row">
+                        <span class="day">Samstag</span>
+                        <span class="line"></span>
+                        <span class="hours">10:00 - 16:00</span>
+                    </Row>
+                    <br />
+                    <Row class="row">
+                        <span class="day">Sonntag</span>
+                        <span class="line"></span>
+                        <span class="hours-closed">Geschlossen</span>
+                    </Row>
+                    <br />
+                    </Col>
+                    <Col class="open-top-wrapper">
+                    <Row class="open-section-title">Telefon:</Row>
+                    <Row><a class="link" href="tel:+492461 3170310">+49(0)2461 3170310</a></Row>
+                    </Col>
+                </Container>
+            </container>
+        </section>
+        <section class="about between" id="about">
+            <div class="container">
+                <div class="global-headline">
+                    <div class="animate-top">
+                        <h2 class="main-heading">
+                            Über uns
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="full">
+            <div class="global-headline">
+                <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+            </div>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <p><span class="first-letter">B</span>ei unserer Eröffnung im Jahr 2010 war Dampfen eine relativ
+                        überschaubare Sache. Es
+                        gab keine
+                        große
+                        Auswahl an Geräten und deren Funktionen waren einfach: drücken, ziehen, fertig.</p>
+                    <p>Seitdem ist viel Zeit vergangen und es wurden fantastische Geräte entwickelt. Vergleichbar mit
+                        der
+                        Computerbranche war die neueste Dampfe kurz nach dem Kauf schon wieder von moderneren Geräten
+                        übertrumpft. Die Funktionen wurden immer vielseitiger und wuchsen mit den Ansprüchen der
+                        Menschen.
+                        Doch
+                        eines ist immer gleich geblieben. Ein neues technisches Gerät bedarf einer Einführung, eine
+                        Erklärung
+                        der Funktionen, der Möglichkeiten.</p>
+                </div>
+
+
+                <div class="grid-item">
+                    <p>Und das ist seit nunmehr 10 Jahren unsere Aufgabe. Nicht jedes Gerät ist geeignet um von der
+                        Zigarette
+                        erfolgreich umzusteigen. Wir ermitteln mit Ihnen zusammen was das Beste für Sie und ihre
+                        Situation
+                        ist-damit
+                        Sie langfristig erfolgreich sind.</p>
+
+                    <p>Wir begleiten sie auf ihrem Weg als Dampfer von Anfang an.
+                        Wir lassen sie teilhaben an unserem umfangreichen Wissen, dass wir im Laufe der Jahre erworben
+                        haben.
+                        Wir zeigen Ihnen die neuesten Geräte, die besten Tricks und bei uns können Sie die ganze
+                        Vielfalt
+                        der
+                        angebotenen Liquids probieren.</p>
+                </div>
+
+                <div class="grid-item">
+                    <p>Sollten Sie Schwierigkeiten mit ihrem Gerät haben sind wir für Sie da. Und dabei spielt es keine
+                        Rolle ob
+                        Sie das Gerät bei uns oder woanders gekauft haben.</p>
+
+                    <p>Das gesamte Dampf Zebra Team besteht aus ehemaligen Kunden, die aus ihrer Begeisterung zu ihrem
+                        Hobby
+                        ihren
+                        Beruf gemacht haben.</p>
+
+                    <p>Unsere Leidenschaft für dieses Produkt geben wir gerne an Sie weiter.</p>
+                </div>
+                <div class="grid-item">
+                    <p>Euer Dampf Zebra Team</p>
+                    <img src="./img/dampfer-team.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- locations -->
+        <section class="locations between" id="location">
+            <div class="container">
+                <div class="global-headline">
+                    <div class="animate-top">
+                        <h2 class="main-heading">
+                            standorte
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="full">
+            <details>
+                <summary>
+                    <div class="location-img" style="background-image:url('./img/Dampf_Zebra/ubach.jpg');"></div>
+                    <div class="middle">
+                        <div class="location-text"><span class="span-location">-</span>Übach-Palenberg<span
+                                class="span-location">-</span></div>
+                    </div>
+                </summary>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <img src="./img/Dampf_Zebra/ubach1.jpg"></img>
+                    </div>
+                    <div class="grid-item">
+                        <img src="./img/Dampf_Zebra/ubach2.jpg"></img>
+                    </div>
+                    <div class="grid-item">
+                        <img src="./img/Dampf_Zebra/ubach3.jpg"></img>
+                    </div>
+                    <div class="grid-item">
+                        <img src="./img/Dampf_Zebra/ubach4.jpg"></img>
+                    </div>
+                    <div class="grid-item">
+                        <img src="./img/Dampf_Zebra/ubach5.jpg"></img>
+                    </div>
+                    <div class="grid-item">
+                        <img src="./img/Dampf_Zebra/ubach6.jpg"></img>
+                    </div>
+            </details>
+            <details>
+                <summary>
+                    <div id='eschweiler-hidden' class="location-card">
+                        <div class="location-img" style="background-image:url('./img/Dampf_Zebra/eschweiler.jpg')">
+                        </div>
+                        <div class="middle">
+                            <div class="location-text"><span class="span-location">-</span>Eschweiler<span
+                                    class="span-location">-</span></div>
+                        </div>
+                </summary>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <img src="./img/Dampf_Zebra/Eschweiler1.jpg"></img>
+                    </div>
+                    <div class="grid-item">
+                        <img src="./img/Dampf_Zebra/Eschweiler2.jpg"></img>
+                    </div>
+                    <div class="grid-item">
+                        <img src="./img/Dampf_Zebra/Eschweiler3.jpg"></img>
+                    </div>
+                    <div class="grid-item">
+                        <img src="./img/Dampf_Zebra/Eschweiler4.jpg"></img>
+                    </div>
+                    <div class="grid-item">
+                        <img src="./img/Dampf_Zebra/Eschweiler10.jpg"></img>
+                    </div>
+                    <div class="grid-item">
+                        <img src="./img/Dampf_Zebra/Eschweiler6.jpg"></img>
+                    </div>
+            </details>
+            <details>
+                <summary>
+                    <div class="location-img" style="background-image:url('./img/Dampf_Zebra/julich.jpg')"></div>
+                    <div class="middle">
+                        <div class="location-text"><span class="span-location">-</span>Jülich<span
+                                class="span-location">-</span></div>
+                    </div>
+                </summary>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <img src="./img/Dampf_Zebra/Julich8.jpg"></img>
+                    </div>
+                    <div class="grid-item">
+                        <img src="./img/Dampf_Zebra/Julich2_edited.jpg"></img>
+                    </div>
+                    <div class="grid-item">
+                        <img src="./img/Dampf_Zebra/Julich7.jpg"></img>
+                    </div>
+                    <div class="grid-item">
+                        <img src="./img/Dampf_Zebra/Julich1.jpg"></img>
+                    </div>
+                    <div class="grid-item">
+                        <img src="./img/Dampf_Zebra//Julich10.jpg"></img>
+                    </div>
+                    <div class="grid-item">
+                        <img src="./img/Dampf_Zebra/Julich11.jpg"></img>
+                    </div>
+            </details>
+        </section>
+
+    </main>
+
+
+    <!-- footer section -->
+    <footer>
+        <div class="footer-container">
+            <div class="left-col">
+
+                <div class="social-media">
+                    <h1 class="h1-footer">Social</h1>
+                    <div class="border"></div>
+                    <a href="https://www.facebook.com/DampfZebra" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/dampfzebra/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+                <p class="p-footer">
+                    2020 SvG All Rights Reserved
+                </p>
+            </div>
+
+            <div class="right-col">
+                <h1 class="h1-footer">Kontakt</h1>
+                <div class="border"></div>
+                <p class="p-footer">Übach-Palenberg:<a class="footer-link" href="tel:+4924519323944"> +49(0)2451
+                        9323944</a>
+                </p>
+                <p class="p-footer">Eschweiler:<a class="footer-link" href="tel:+4924038817888">+49(0)2403 8817888</a>
+                </p>
+                <p class="p-footer">Jülich:<a class="footer-link" href="tel:+4924613170310"> +49(0)2461 3170310</a></p>
+            </div>
+        </div>
+    </footer>
+    <!-- Cookies -->
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script>
+        window.cookieconsent.initialise({
+            "palette": {
+                "popup": {
+                    "background": "#1e2223",
+                    "text": "#ffffff"
+                },
+                "button": {
+                    "background": "#ff002b",
+                    "border-radius": "25px;"
+                }
+            },
+            "position": "bottom-right",
+            "content": {
+                "message": "Diese Website verwendet Cookies um Ihnen ein besseres Internet-Erlebnis zu ermöglichen. ",
+                "dismiss": "Verstanden!",
+                "link": "Datenschutz",
+                "href": "data.html"
+            }
+        });
+    </script>
+
+    <script src="index.js" type="text/javascript"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQVomiiylLvafnDTluUZ7kHNkfo2EjDPY&callback=initMap">
+    </script>
+</body>
+
+
+</html>
