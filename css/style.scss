@@ -421,7 +421,6 @@ main {
 // maps
 .map {
   width: 100%;
-  height: 400px;
   background-color: grey;
 }
 
@@ -637,6 +636,14 @@ footer {
 }
 .right-col .h1-footer {
   font-size: 2.6rem;
+}
+
+.data {
+  text-decoration: none;
+  color: #fff;
+
+  font-size: 12px;
+
 }
 
 .border {
